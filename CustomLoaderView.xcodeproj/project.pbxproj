@@ -13,6 +13,7 @@
 		7E77184A24935689002F1C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E77184824935689002F1C1E /* Main.storyboard */; };
 		7E77184C2493568D002F1C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E77184B2493568D002F1C1E /* Assets.xcassets */; };
 		7E77184F2493568D002F1C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E77184D2493568D002F1C1E /* LaunchScreen.storyboard */; };
+		7E771857249357E6002F1C1E /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E771856249357E6002F1C1E /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E77184B2493568D002F1C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E77184E2493568D002F1C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E7718502493568D002F1C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E771856249357E6002F1C1E /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7E77184224935689002F1C1E /* AppDelegate.swift */,
 				7E77184424935689002F1C1E /* SceneDelegate.swift */,
 				7E77184624935689002F1C1E /* ViewController.swift */,
+				7E771856249357E6002F1C1E /* Loader.swift */,
 				7E77184824935689002F1C1E /* Main.storyboard */,
 				7E77184B2493568D002F1C1E /* Assets.xcassets */,
 				7E77184D2493568D002F1C1E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				7E77184724935689002F1C1E /* ViewController.swift in Sources */,
 				7E77184324935689002F1C1E /* AppDelegate.swift in Sources */,
+				7E771857249357E6002F1C1E /* Loader.swift in Sources */,
 				7E77184524935689002F1C1E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

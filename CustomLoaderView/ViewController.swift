@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func startAction(_ sender: Any) {
+        Loader.shared.start()
+    }
+    
+    @IBAction func stopAction(_ sender: Any) {
+        Loader.shared.stop()
+    }
 }
 
